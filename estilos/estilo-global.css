@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cabecalho {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo-cabecalho {
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.navegacao-cabecalho {
+    margin-right: 15%;
+}
+
+.navegacao-cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao-cabecalho ul li {
+    list-style-type: none;
+    margin: 10%;
+}
+
+.navegacao-cabecalho a {
+    color: #FDFDFD;
+    font-weight: 700;
+}
+
+#primeiro-conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5%;
+}
+
+.chamada-para-acao {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.chamada-para-acao h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.chamada-para-acao p {
+    color: #555555;
+    margin: 8% 0;
+    font-size: 18px;
+}
+
+.chamada-para-acao button {
+    background-color: #FFFFFF;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 1.5% 4%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.banner img {
+    height: 400px;
+}
+
+#segundo-conteudo {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.segundo-conteudo-divisao {
+    text-align: center;
+    margin: 5%;
+}
+
+.segundo-conteudo-divisao img {
+    height: 270px;
+    margin-bottom: 10%;
+}
+
+.segundo-conteudo-divisao h3 {
+    color: #FF4081;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.segundo-conteudo-divisao p {
+    margin-bottom: 8%;
+    width: 280px;
+}
+
+.segundo-conteudo-divisao button {
+    background-color: #FF4081;
+    color: #FFFFFF;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2% 10%;
+    cursor: pointer;
+}
+
+#terceiro-conteudo {
+    display: flex;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+#terceiro-conteudo > div > h2 {
+    color: #2E948A;
+    margin-bottom: 5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.relatos {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+.relatos img {
+    height: 104px;
+}
+
+.relatos div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.relatos div p {
+    width: 350px;
+    margin-bottom: 5%;
+}
+
+.texto {
+    font-weight: 300;
+}
+
+#quarto-conteudo {
+    background-color: #F6F6F6;
+    padding: 5% 0 1% 5%;
+}
+
+#quarto-conteudo div h2 {
+    color: #2E948A;
+    margin-bottom: 5%;
+}
+
+.mais-conteudos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteudo-extra img {
+    margin-bottom: 2%;
+}
+
+.conteudo-extra h4 {
+    color: #2E948A;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.conteudo-extra p {
+    width: 85%;
+    margin: 1% 0;
+}
+
+.botao-conteudo-extra {
+    text-align: center;
+    margin: 5%;
+}
+
+.botao-conteudo-extra button {
+    background-color: #F6F6F6;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 0.5% 4%;
+    cursor: pointer;
+}
+
+#rodape {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-rodape {
+    padding: 2% 0;
+}
+
+.navegacao-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao-rodape ul li {
+    list-style-type: none;
+}
+
+.navegacao-rodape a {
+    color: #FFFFFF;
+    margin: 2%;
+}
+
+.botoes-rodape {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.botoes-rodape button {
+    background-color: #2E948A;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    margin: 2%;
+    padding: 4% 10%;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}

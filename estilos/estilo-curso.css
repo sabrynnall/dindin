@@ -1,0 +1,55 @@
+#primeira-secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao {
+    width: 30%;
+    margin: 5% 5% 5% 0;
+}
+
+.apresentacao-img img {
+    height: 300px;
+}
+
+.apresentacao h1 {
+    color: #FF4081;
+    font-size: 40px;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+#segunda-secao {
+    background-color: #F6F6F6;
+}
+
+.aula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    margin: 0 5%;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.video-aula img {
+    height: 200px;
+}
+
+.descricao-aula {
+    margin-left: 5%;
+    width: 33%;
+}
+
+#aula-tres {
+    border-color: #F6F6F6;
+}
+
+.descricao-aula h2 {
+    color: #FF4081;
+    margin-bottom: 5%;
+}
+
+
+
