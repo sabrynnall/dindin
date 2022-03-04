@@ -1,0 +1,50 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.contato form h1 {
+    color: #FF4081;
+    font-size: 35px;
+    margin-bottom: 10%;
+}
+
+.nome, 
+.email,
+.mensagem {
+    margin: 0 0 2% 0;
+    padding: 2% 3%;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contato form button {
+    width: 20%;
+    background-color: #FF4081;
+    color: #FFFFFF;
+    padding: 1.2%;
+    margin-top: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #FF4081;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contato form button:hover {
+    background-color: #FFFFFF;
+    border-color: #FF4081;
+    color: #FF4081;
+    cursor: pointer;
+}
+

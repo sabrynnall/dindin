@@ -1,0 +1,96 @@
+.postagem {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16%;
+}
+
+.titulo-data {
+    text-align: center;
+    margin: 8% 0;
+}
+
+.titulo-data h1 {
+    color: #FF4081;
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 0.5%;
+}
+
+.titulo-data p {
+    color: #9D9D9D;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.conteudo-imagem-texto img {
+    width: 920px;
+    height: 420px;
+    margin-bottom: 5%;
+}
+
+.conteudo-imagem-texto p {
+    margin-bottom: 5%;
+    font-weight: 300;
+}
+
+.conteudo-imagem-texto h2 {
+    font-weight: 500;
+    color: #419488;
+    margin-bottom: 2%;
+}
+
+.cursos-post {
+    background-color: #F6F6F6;
+    padding: 5%;
+}
+
+.titulo-chamada h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #FF4081;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.nossos-cursos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso {
+    width: 24%;
+    text-align: center;
+}
+
+.curso img {
+    height: 280px;
+}
+
+.curso h3 {
+    color: #FF4081;
+    margin: 5%;
+    font-weight: 700;
+}
+
+.curso p {
+    font-weight: 300;
+    margin-bottom: 5%;
+    font-size: 14px;
+}
+
+.curso button {
+    background-color: #FF4081;
+    color: #FFFFFF;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 3% 8%;
+    margin-top: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.curso button:hover {
+    background-color: #FFFFFF;
+    color: #FF4081;
+    border-color: #FF4081;
+}

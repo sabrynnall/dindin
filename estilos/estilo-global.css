@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 * {
     text-decoration: none;
@@ -40,6 +40,10 @@ body {
 .navegacao-cabecalho a {
     color: #FDFDFD;
     font-weight: 700;
+}
+
+.navegacao-cabecalho a:hover {
+    color: #FF4081;
 }
 
 #primeiro-conteudo {
@@ -233,6 +237,10 @@ body {
     margin: 2%;
 }
 
+.navegacao-rodape a:hover {
+    color: #FF4081;
+}
+
 .botoes-rodape {
     display: flex;
     flex-direction: column;
@@ -248,4 +256,9 @@ body {
     padding: 4% 10%;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
+}
+
+.botoes-rodape button:hover {
+    background-color: #FFFFFF;
+    color: #2E948A;
 }
