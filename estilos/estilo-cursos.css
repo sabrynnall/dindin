@@ -59,3 +59,41 @@
     color: #419488;
     border: 2px solid #419488;
 }
+
+@media screen and (max-width: 800px) {
+
+    .titulo-frase p {
+        font-size: 22px;
+    }
+
+    .conteudo-curso img {
+        width: 250px;
+    }
+
+    .descricao-curso h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .conteudo-curso {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .conteudo-curso img {
+        margin-bottom: 5%;
+    }
+
+    .conteudo-curso p {
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+
+    .descricao-curso button {
+        font-size: 20px;
+        padding: 2% 5%;
+    }
+}

@@ -61,5 +61,41 @@
     margin-bottom: 5%;
 }
 
+@media screen and (max-width: 800px) {
+
+    #primeira-secao{
+        justify-content: space-evenly;
+        margin: 5%;
+    }
+
+    .apresentacao {
+        width: 40%;
+    }
+
+    .apresentacao h1 {
+        font-size: 35px;
+    }
+
+    .apresentacao p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #primeira-secao {
+        flex-direction: column;
+        margin: 0;
+        width: 500px;
+    }
+
+
+    .aula {
+        flex-direction: column;
+    }
+
+
+}
+
 
 

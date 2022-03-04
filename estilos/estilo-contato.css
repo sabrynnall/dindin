@@ -48,3 +48,46 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+
+    .contato {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .contato form {
+        margin: 5% 0;
+        width: 70%;
+    }
+
+    .contato form h1 {
+        margin-bottom: 3%;
+    }
+
+    .nome, 
+    .email,
+    .mensagem {
+        font-size: 20px;
+    }
+
+    .contato form button {
+        font-size: 20px;
+    }
+
+    .ilustra-contato img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .contato form {
+        width: 80%;
+    }
+
+    .contato form button {
+        padding: 1% 5%;
+        width: 30%;
+    }
+}
+

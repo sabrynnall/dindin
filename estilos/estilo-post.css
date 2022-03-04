@@ -94,3 +94,36 @@
     color: #FF4081;
     border-color: #FF4081;
 }
+
+@media screen and (max-width: 800px) {
+
+    .conteudo-imagem-texto img {
+        height: 300px;
+        width: 500px;
+    }
+
+    .conteudo-imagem-texto p {
+        font-size: 22px;
+    }
+
+    .curso img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .conteudo-imagem-texto img {
+        height: 150px;
+        width: 275px;
+    }
+
+    .nossos-cursos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curso img {
+        height: 250px;
+    }
+}

@@ -43,7 +43,7 @@ body {
 }
 
 .navegacao-cabecalho a:hover {
-    color: #FF4081;
+    color: #ffffff83;
 }
 
 #primeiro-conteudo {
@@ -179,7 +179,7 @@ body {
 
 #quarto-conteudo {
     background-color: #F6F6F6;
-    padding: 5% 0 1% 5%;
+    padding: 5% 0% 1% 5%;
 }
 
 #quarto-conteudo div h2 {
@@ -267,7 +267,7 @@ body {
 }
 
 .navegacao-rodape a:hover {
-    color: #FF4081;
+    color: #ffffff83;
 }
 
 .botoes-rodape {
@@ -290,4 +290,179 @@ body {
 .botoes-rodape button:hover {
     background-color: #FFFFFF;
     color: #2E948A;
+}
+
+@media screen and (max-width: 800px) {
+
+    #primeiro-conteudo {
+        margin: 10%;
+    }
+
+    .chamada-para-acao {
+        width: 250px;
+    }
+
+    .chamada-para-acao h1 {
+        font-size: 30px;
+    }
+
+    .chamada-para-acao p {
+        font-size: 20px;
+    }
+
+    .chamada-para-acao button {
+        font-size: 22px;
+        padding: 1% 5%;
+    }
+
+    .banner img {
+        height: 250px;
+    }
+
+    #segundo-conteudo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .segundo-conteudo-divisao img {
+        height: 250px;
+        margin-bottom: 2%;
+    }
+
+    .segundo-conteudo-divisao h3 {
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+
+    .segundo-conteudo-divisao p {
+        width: 500px;
+        padding: 0 0 0 15%;
+        margin-bottom: 5%;
+        font-size: 22px;        
+    }
+
+    .segundo-conteudo-divisao button {
+        font-size: 22px;
+        padding: 1% 5%;
+    }
+
+    #terceiro-conteudo div h2 {
+        margin-bottom: 10%;
+    }
+
+    #quarto-conteudo {
+        padding: 5%;
+    }
+
+    #quarto-conteudo div h2 {
+        margin-bottom: 10%;
+    }
+
+    .mais-conteudos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo-extra p {
+        margin: 5% 0 5% 7%;
+        font-size: 22px;
+    }
+
+    .botao-conteudo-extra {
+        margin-right: 0;
+    }
+
+    .botao-conteudo-extra button {
+        font-size: 22px;
+    }
+
+    .logo-rodape img {
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #cabecalho {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 5% 20% 0 0;
+    }
+
+    .logo-cabecalho img {
+        padding-left: 10%;
+    }
+
+    .navegacao-cabecalho a {
+        font-size: 20px;
+    }
+
+    #primeiro-conteudo {
+        flex-direction: column;
+
+    }
+
+    .chamada-para-acao h1 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .chamada-para-acao p {
+        font-size: 20px;
+    }
+
+    .chamada-para-acao button {
+        margin-bottom: 8%;
+    }
+
+    .banner img {
+        padding-left: 20%;
+        margin-top: 5%;
+    }
+
+    .segundo-conteudo-divisao {
+        justify-content: center;
+    }
+
+    .segundo-conteudo-divisao p {
+        text-align: center;
+        width: 270px; 
+    }
+    
+    .relatos div p {
+        width: 200px;
+        margin-left: 15%;
+    }
+
+    .conteudo-extra {
+        margin-bottom: 5%;
+    }
+
+    .conteudo-extra p {
+        font-size: 20px;
+    }
+
+    #rodape {
+        height: 100px;
+        padding-left: 2%;
+    }
+
+    .logo-rodape img {
+        height: 50px;
+    }
+
+    .botoes-rodape {
+        margin-left: 5%;
+    }
+
+    .botoes-rodape button {
+        font-size: 16px;
+        justify-content: end;
+        padding: 0.5% 1%;
+        width: 150px;
+    }
 }
