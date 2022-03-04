@@ -29,6 +29,10 @@
     border: #FFFFFF;
 }
 
+#conteudo-independencia img {
+    margin-right: 5%;
+}
+
 .descricao-curso {
     width: 58%;
 }
