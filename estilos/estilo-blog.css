@@ -56,6 +56,7 @@
     width: 92%;
     font-weight: 300;
     font-size: 15px;
+    color: #000000;
 }
 
 @media screen and (max-width: 800px) {
@@ -67,5 +68,5 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+
 }
