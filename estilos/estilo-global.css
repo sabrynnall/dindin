@@ -55,7 +55,7 @@ body {
 
 .chamada-para-acao {
     width: 25%;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .chamada-para-acao h1 {
@@ -79,6 +79,11 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     cursor: pointer;
+}
+
+.chamada-para-acao button:hover {
+    background-color: #FF4081;
+    color: #FFFFFF;
 }
 
 .banner img {
@@ -114,12 +119,18 @@ body {
 
 .segundo-conteudo-divisao button {
     background-color: #FF4081;
-    color: #FFFFFF;
+    color: #F6F6F6;
     border: 2px solid #FF4081;
     border-radius: 62px;
     font-family: 'Ubuntu', sans-serif;
     padding: 2% 10%;
     cursor: pointer;
+}
+
+.segundo-conteudo-divisao button:hover {
+    background-color: #F6F6F6;
+    color: #FF4081;
+    border-color: #FF4081;
 }
 
 #terceiro-conteudo {
@@ -181,6 +192,18 @@ body {
     justify-content: space-evenly;
 }
 
+.conteudo-extra {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.conteudo-extra:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .conteudo-extra img {
     margin-bottom: 2%;
 }
@@ -198,7 +221,7 @@ body {
 
 .botao-conteudo-extra {
     text-align: center;
-    margin: 5%;
+    margin: 5% 5% 5% 0;
 }
 
 .botao-conteudo-extra button {
@@ -210,6 +233,11 @@ body {
     font-size: 20px;
     padding: 0.5% 4%;
     cursor: pointer;
+}
+
+.botao-conteudo-extra button:hover {
+    background-color: #FF4081;
+    color: #F6F6F6;
 }
 
 #rodape {
@@ -230,6 +258,7 @@ body {
 
 .navegacao-rodape ul li {
     list-style-type: none;
+    text-transform: lowercase;
 }
 
 .navegacao-rodape a {
